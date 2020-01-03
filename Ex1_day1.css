@@ -162,6 +162,9 @@ button {
 .img-100 {
   width: 100%;
 }
+.content-intro img{
+float: right;
+}
 
 /* footer */
 .foot-info {
@@ -189,7 +192,7 @@ button {
 }
 .copyright {
   margin-top: 1.4%;
-  margin-bottom: 1.6%;
+  padding-bottom: 1.6%;
 }
 .copyright span {
   color: #f7fbff;
