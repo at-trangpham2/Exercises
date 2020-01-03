@@ -10,14 +10,14 @@
 .head-logo {
   display: flex;
 
-  border-bottom: 1px solid rgb(216, 209, 209);
-  padding-top: 0.6%;
-  padding-bottom: 1%;
+  border-bottom: 1px solid #e9e9e9;
+  padding-top: 6px;
+  padding-bottom: 9px;
 }
 .logo {
-  margin-right: 37.3%;
+  margin-right: 672px;
   display: flex;
-  margin-left: 11.2%;
+  margin-left: 204px;
   width: 19.8%;
 }
 .logo img {
@@ -26,11 +26,13 @@
 .title h3 {
   font-weight: lighter;
 }
-
+.contact .phone {
+  margin-right: 10px;
+}
 .contact {
   display: flex;
   align-items: center;
-  width: 20.5%;
+  width: 21.5%;
 }
 .contact h3 {
   color: #4cc1fc;
@@ -38,20 +40,23 @@
 }
 .contact h4 {
   font-style: italic;
+  margin-right: 5px;
+  font-weight: lighter;
 }
 
 /* header-banner */
-ul {
-  list-style-type: none;
+.list-li {
+  display: flex;
 }
-
 .list-li li {
-  float: left;
-  padding-top: 1.5%;
-  padding-bottom: 1.5%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  list-style-type: none;
+  padding-left: 10px;
+  border-right: 1px solid #e9e9e9;
 }
 
-li a {
+.list-li a {
   display: block;
   color: #b3b3b3;
   padding-right: 14px;
@@ -59,19 +64,23 @@ li a {
 
   text-decoration: none;
 }
-
+.list-li .list-item {
+  border: 0;
+}
 .head-nav {
   display: flex;
 }
 .head-nav nav {
-  /* margin-right: auto; */
-  margin-left: 12.9%;
-  margin-right: 22%;
+  margin-left: 236px;
+  margin-right: 335px;
 }
 .head-nav img {
   padding-top: 14px;
   padding-bottom: 14px;
   margin-right: 0.7%;
+}
+.list-li a:hover {
+  color: #4cc1fc;
 }
 
 /* --- */
@@ -84,19 +93,20 @@ li a {
   margin-top: -6%;
   margin-left: 11.2%;
 }
-.banner nav a {
+.banner .banner-nav a {
   text-decoration: none;
   color: #2b363d;
 }
 
 /* sidebar-content */
 .health-content {
-  margin-left: 11.2%;
-  margin-top: 6.6%;
+  display: flex;
+  padding-top: 6.6%;
+  padding-left: 11.2%;
   width: 77.6%;
 }
 .health-sidebar {
-  float: left;
+  /* float: left; */
   width: 18.4%;
   margin-right: 1.4%;
 }
@@ -105,12 +115,27 @@ li a {
 .faqs {
   height: 23.3%;
   margin-bottom: 2.6%;
+  list-style-type: none;
 }
-.faqs ul li a {
+.group-list-one .list-item-one {
+  list-style-type: disc;
+  margin-left: 31px;
+  color: #92999d;
+}
+.group-list-one .list-item-one a {
   line-height: 2;
   padding-left: 1.3%;
+  text-decoration: none;
+  color: #30393f;
+}
+.group-list-one .list-item-one a:hover {
+  color: #4cc1fc;
 }
 
+
+.question h3 {
+  padding: 10px;
+}
 .faqs .question {
   height: 3%;
   padding-left: 1.4%;
@@ -124,19 +149,23 @@ form {
   height: 400px;
 }
 form h2 {
-  font-size: 18px;
+  font-size: 23px;
+  padding: 10px 10px 10px 22px;
 }
 form hr {
   width: 27.5%;
   color: #62c6f8;
+  margin-left: 24px;
+}
+form img {
+  margin: -30px 203px 26px;
 }
 input {
-  width: 68.2%;
-  height: 7.4%;
+  width: 81.2%;
+  height: 9.4%;
   display: block;
-
-  margin-left: 16%;
-  margin-top: 6%;
+  margin-left: 23px;
+  margin-top: 18px;
 }
 button {
   display: block;
@@ -144,23 +173,21 @@ button {
   color: white;
   width: 33.8%;
   height: 8.8%;
-  margin-top: 6%;
-  margin-left: 31%;
-}
-form img {
-  margin: -12% 73% 9%;
+  margin-top: 10px;
+  margin-left: 77px;
+  border-color: #4bbc56;
 }
 
 .list-content {
   /* width: 57.8%; */
-  width: 73.8%;
+  width: 82.8%;
   display: flex;
   flex-wrap: wrap;
 }
 .content {
   /* width: 18.4%; */
   width: 31.4%;
-  height: 19.1%;
+  height: 32.1%;
   margin-right: 1.3%;
   margin-bottom: 1.4%;
   display: block;
@@ -189,6 +216,9 @@ p {
   border-bottom: 1px solid gray;
   display: inline-flex;
 }
+.list-info .group-list {
+  margin-left: 19px;
+}
 .list-info ul li {
   line-height: 2em;
 }
@@ -204,6 +234,20 @@ p {
 .copyright {
   margin-top: 1.4%;
   padding-bottom: 1.6%;
+}
+.group-list-three {
+  margin-left: -10px;
+}
+.group-list-three .icon{
+  display: flex;
+  align-items: center;
+
+}
+.icon {
+  margin-left: 11px;
+}
+.icon img{
+  margin-right: 7px;
 }
 .copyright span {
   color: #f7fbff;
